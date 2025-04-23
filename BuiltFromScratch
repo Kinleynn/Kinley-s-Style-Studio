@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Passion</title>
+
+  <!-- Link to your custom CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header section -->
+  <div id="top">
+    <h1>Why We Love What We Do</h1>
+    <p>At Kinley's Style Salon, beauty is our passion — and confidence is our goal.</p>
+  </div>
+
+  <!-- Ordered list with an unordered list inside -->
+  <div class="list-section">
+    <ol>
+      <li>What We Offer:
+        <ul>
+          <li>Haircuts & Styling</li>
+          <li>Color & Highlights</li>
+          <li>Facials & Skincare</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <!-- Image and embedded YouTube video -->
+  <div class="media-section">
+    <img src="https://images.unsplash.com/photo-1588776814546-cfe13d0cbe28" width="300" alt="Salon Vibes">
+    <br><br>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/k1kC5KTOkHk" title="Salon Transformation"></iframe>
+  </div>
+
+  <!-- On-page anchor to jump to bottom -->
+  <a href="#bottom">Jump to Bottom</a>
+
+  <!-- Embedded Tableau graph -->
+  <div class="tableau-section">
+    <iframe src="https://public.tableau.com/views/BeautyIndustryStats/Dashboard1" width="600" height="400"></iframe>
+  </div>
+
+  <!-- Bottom section with return links -->
+  <div id="bottom">
+    <p>Visit us and let us bring out your radiance.</p>
+    <a href="index.html">Back to Home</a> |
+    <a href="joke-app.html">Just for Fun</a>
+  </div>
+
+</body>
+</html>
